@@ -9,7 +9,7 @@ variable "subnet_id"           { default = ""}
 variable "instance_type"       { default = "r3.large" }
 variable "volume_size"         { default = "80" }
 variable "environment"         { default = "production"}
-variable "ops_access"          { default = [""]}
+variable "devops_access"       { default = [""]} // Devops security group
 
 // Security groups
 variable "security_group_name" { default = ""}
